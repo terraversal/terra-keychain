@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terra Keychain</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Terra Keychain</h1>
+    <h3>A simple typing test.</h3>
+    <br>
+    <br>
+    <br>
+    <h3>Text goes here: </h3>
+    <div id="typing-test">
+        <div>
+            <textarea id="test-text" placeholder="The fuzzy oval koala questions pink juice mixed with regular bubblegum."></textarea>
+            <button id="doneBtn" class="button--height">Done</button>
+            <div id="select-container" hidden="true"> 
+                <select hidden="true" id="templates">
+                    <option value="1">yuiop keys</option>
+                    <option value="2">bnm keys</option>
+                    <option value="3">czxv/ keys</option>
+                    <option value="4">1234567890 keys</option>
+                    <option value="5">!@#$%^&*() keys</option>
+                </select>
+                <div id="abstract">
+                    <label for="abstract-expand">Abstract? </label>
+                    <input type="checkbox" id="abstract-expand">
+                </div>
+            </div>
+            <button id="generateBtn" class="button--height">Use a template <span title="This generates a random template out of five prewritten templates for you to type instead of having to find yourselves.">ⓘ</span></button>
+        </div>
+        
+        <textarea id="typing-text"></textarea>
+
+        <dialog id="dialog-delete-warning">
+            <p>Are you sure you want to clear this field?</p>
+            <button id="button-yes">Yes, I'm sure</button>
+            <button id="button-no">No, nevermind</button>
+        </dialog>
+
+        <p id="total-time"></p>
+        <p id="raw-wpm" title="Raw WPM is the total words per minute, unaffected by accuracy.">Raw WPM:</p>
+        <p id="net-wpm" title="Net WPM is the words per minute, but points are removed based on accuracy.">Net WPM:</p>
+    </div>
+
+    
+
+    
+</body>
+</html>

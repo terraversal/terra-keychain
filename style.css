@@ -1,0 +1,174 @@
+body {
+    background-color: black;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "GRAD" 0;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    font-size: 5rem;
+    justify-content: center;
+    margin: 0;
+    text-shadow: 0px 4px 4px rgb(147, 147, 147)
+}
+
+h3 {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    justify-content: center;
+    margin-top: 6px;
+    text-shadow: 0px 4px 4px rgb(147, 147, 147)
+}
+
+
+#typing-test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#typing-test > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#typing-test textarea, 
+#doneBtn {
+    height: 80px;
+    padding: 10px 14px;
+    border: 2px rgb(200, 200, 200) solid;
+    border-radius: 3px;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+}
+
+#test-text {
+    width: 40rem;
+    resize: none;
+}
+
+.button--height {
+    background-color: rgb(255, 255, 255);
+    border: 2px rgb(200, 200, 200) solid;
+    border-radius: 3px;
+    width: 100px;
+    height: 80px;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: column;    
+}
+
+#templates {
+    display: flex;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+}
+
+#templates:hover {
+    cursor: pointer;
+}
+
+label {
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+#abstract-expand {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+#abstract {
+    display: flex;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 14px;
+    border: 2px rgb(200, 200, 200) solid;
+    border-radius: 3px;
+}
+
+#doneBtn:hover {
+    cursor: pointer;
+}
+
+#typing-text {
+    display: none;
+    margin-top: 20px;
+    width: 50rem;
+}
+
+#dialog-delete-warning {
+    padding: 24px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 350px;
+    width: 100%;
+  }
+  
+  #dialog-delete-warning p {
+    margin: 0 0 20px 0;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.4;
+  }
+  
+  #dialog-delete-warning button {
+    float: right;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 8px;
+    border: none;
+  }
+  
+
+  #button-yes {
+    background-color: #2b2b2b;
+    color: white;
+  }
+
+  #button-no {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #dee2e6 !important;
+  }
+  
+  #button-no:hover
+  
+  #dialog-delete-warning::backdrop {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+#raw-wpm {
+    display: none;
+    color: white;
+}
+
+#net-wpm {
+    display: none;
+    color: white;
+}

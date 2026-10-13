@@ -1,0 +1,1 @@
+let rawWpm = (typingIndex * 12) / realTimeSecs;
