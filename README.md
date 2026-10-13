@@ -1,5 +1,5 @@
 # Terra Keychain
-<!-- Provide a 1-2 sentence high-level overview of what the project does and its core value proposition. -->
+
 Terra Keychain is a typing test for beginner and advanced speed-typers. It is a mix of premade typing tests and custom typing tests users can make themselves with one click.
 
 ## Features
